@@ -1,0 +1,30 @@
+TransactionID,CustomerID,AmountUSD,OriginCountry,DestinationCountry,Channel,TimestampUTC,CustomerRiskRating,KYC_Age_Days,Account_Tenure_Days,CounterpartyType,Notes
+T001,C102,9861.32,USA,USA,Branch,7/15/2025 12:00,Medium,600,900,Individual,Multiple cash deposits under CTR threshold
+T002,C102,9778.38,USA,USA,Branch,7/15/2025 12:05,Medium,600,900,Individual,Multiple cash deposits under CTR threshold
+T003,C102,9812.13,USA,USA,Branch,7/15/2025 12:10,Medium,600,900,Individual,Multiple cash deposits under CTR threshold
+T004,C102,9805.13,USA,USA,Branch,7/15/2025 12:15,Medium,600,900,Individual,Multiple cash deposits under CTR threshold
+T005,C102,9874.42,USA,USA,Branch,7/15/2025 12:20,Medium,600,900,Individual,Multiple cash deposits under CTR threshold
+T006,C203,35706.8,UK,Iran,Wire,7/15/2025 13:42,High,150,240,Company,Wire to high-risk jurisdiction
+T007,C203,36568.72,UK,Syria,Wire,7/15/2025 13:49,High,150,240,Company,Wire to high-risk jurisdiction
+T008,C203,33347.76,UK,Syria,Wire,7/15/2025 13:56,High,150,240,Charity,Charity payment with documentation
+T009,C315,12000,Germany,USA,Online,7/15/2025 15:20,High,45,60,CryptoExchange,Quick buy/sell pattern; minimal balance retention
+T010,C315,13000,Germany,Hong Kong,Online,7/15/2025 15:23,High,45,60,CryptoExchange,Quick buy/sell pattern; minimal balance retention
+T011,C315,14000,Germany,USA,Online,7/15/2025 15:26,High,45,60,CryptoExchange,Quick buy/sell pattern; minimal balance retention
+T012,C315,15000,Germany,Hong Kong,Online,7/15/2025 15:29,High,45,60,CryptoExchange,Quick buy/sell pattern; minimal balance retention
+T013,C126,23687.69,Mexico,USA,Mobile,7/15/2025 18:40,Medium,1200,30,Individual,Dormant -> sudden large transfers
+T014,C126,22119.19,Mexico,USA,Mobile,7/15/2025 18:55,Medium,1200,30,Individual,Dormant -> sudden large transfers
+T015,C126,22874.55,Mexico,USA,Mobile,7/15/2025 19:10,Medium,1200,30,Individual,Dormant -> sudden large transfers
+T016,C441,20000,UAE,Singapore,Wire,7/15/2025 22:00,Medium,300,500,Company,Round amount at 02:00 UTC
+T017,C441,50000,UAE,Singapore,Wire,7/15/2025 23:00,Medium,300,500,Company,Round amount at 03:00 UTC
+T018,C441,45000,UAE,Singapore,Wire,7/16/2025 0:00,Medium,300,500,Company,Regular payroll to vendor; documentation on file
+T019,C512,8005.36,USA,Mexico,Online,7/16/2025 1:20,High,200,120,MSB,"MSB-to-MSB corridor, velocity observed"
+T020,C512,7526.54,USA,Mexico,Online,7/16/2025 1:22,High,200,120,MSB,"MSB-to-MSB corridor, velocity observed"
+T021,C512,7698.84,USA,Mexico,Online,7/16/2025 1:24,High,200,120,MSB,"MSB-to-MSB corridor, velocity observed"
+T022,C618,161.99,USA,USA,Branch,7/16/2025 3:00,Low,800,2000,Individual,Everyday retail activity
+T023,C618,143.56,USA,USA,Mobile,7/16/2025 5:00,Low,800,2000,Individual,Everyday retail activity
+T024,C618,157.14,USA,USA,ATM,7/16/2025 7:00,Low,800,2000,Individual,Everyday retail activity
+T025,C618,170.7,USA,USA,ATM,7/16/2025 9:00,Low,800,2000,Individual,Everyday retail activity
+T026,C709,95000,Hong Kong,Italy,Wire,7/16/2025 12:10,High,365,365,Company,Trade invoice value anomaly
+T027,C709,110000,Hong Kong,Italy,Wire,7/16/2025 12:20,High,365,365,Company,Trade invoice value anomaly
+T028,C811,6000,UK,Syria,Online,7/16/2025 14:40,Medium,700,1200,Charity,Registered NGO with enhanced due diligence
+T029,C811,7000,UK,Syria,Online,7/16/2025 15:40,Medium,700,1200,Charity,Registered NGO with enhanced due diligence
